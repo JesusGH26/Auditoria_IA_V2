@@ -16,7 +16,14 @@ Abre la terminal en la carpeta del proyecto y ejecuta:
 ```bash
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 ```
-### 2. Ejecutar el proyecto
+### 2. Colocar el API
+Crea un archivo .env en donde coloque un API de gemini (el API se consigue mediante google cloud) y se coloca lo siguiente:
+API_KEY=TU_API
+### 3. Instalar las dependencias
+```bash
+npm install
+```
+### 4. Ejecutar el proyecto
 ```bash
 npm run dev
 ```
